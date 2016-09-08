@@ -26,7 +26,7 @@
 #include <thr_alarm.h>
 #include <assert.h>
 
-#ifdef _WIN32
+#ifdef _cWIN32
 
 int 
 pthread_cond_init (pthread_cond_t *cv, const pthread_condattr_t *attr)
